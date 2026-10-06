@@ -1,6 +1,6 @@
 from interest import simple_interest
 
-def test_zero_princpal():
+def test_zero_principal():
     assert simple_interest(0,2,1) == 0
 
 def test_zero_rate():
